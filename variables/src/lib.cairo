@@ -5,3 +5,4 @@ fn main() {
   x.print();
   x = 6;
   x.print();
+} 

@@ -12,3 +12,10 @@ fn main() {
     };
     rectangle.print();
 }
+
+impl implPrintTrait of PrintTrait<Rectangle> {
+    fn print(self: Rectangle) {
+        self.width.print();
+        self.height.print();
+    }
+}
